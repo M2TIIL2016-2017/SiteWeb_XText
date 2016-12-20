@@ -1,0 +1,44 @@
+PagePrincipale
+{
+	configurationPage
+	ConfigurationPage
+	{
+		couleurFond : "White"
+		titreSite : "SiteWeb"
+		auteurs : "Socrate"
+		couleurPolice : "Black"
+		taillePolice : 14
+	
+	}contacts
+	{
+		Contact
+		{
+			nom : "Marrec"
+			prenom : "Cedric"
+			adresse : "rue des facs"
+			mail : "cedric.marrec29"@"gmail"."c""o""m"
+			telephone : "0606060606"
+		}
+	}
+	pages
+	{
+		PageInterne
+		{
+			titrePage : "Première Page"
+			texte : "Ceci est la première page"
+			liens : Liens
+			{
+				pageInterne : "/page1.html"
+			}
+			photo : 
+			Photo
+			{
+				taille : 0.2
+				extension : ".png"
+				nom : "uneImage"
+			}
+			
+		}
+		
+	}
+}
